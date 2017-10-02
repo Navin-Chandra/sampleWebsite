@@ -687,3 +687,17 @@ h4 a, div#aside p span a{
     width: 50%;
     margin: auto;
   }
+
+  .my-events{
+	border: 1px solid #C80708;
+    float: left;
+    margin-right: 15px !important;
+    margin-top: 8px !important;
+    padding: 9px!important;
+  }
+
+  .news-heading{
+	background: #375675;
+    color: #fff !important;
+    padding-left: 10px
+  }
