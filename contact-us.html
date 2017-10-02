@@ -2,21 +2,23 @@
 <html lang="en">
 
 <head>
-  <title>Bootstrap Carousel</title>
+  <title>Bhanderhati B.M. Institution</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <script src="js/jquery-1.10.2.min.js"></script>
 </head>
-<style>
-  .carousel-inner>.item>img,
-  .carousel-inner>.item>a>img {
-    width: 50%;
-    margin: auto;
-  }
-</style>
+<script>
+  $(function () {
+    //$("#header-page").load("header.html");
+    $("#footer-page").load("footer.html");
+  });
+
+</script>
 
 <body>
   <div id="page">
-    <div id="header">
+    <div id="header-page">
+      <div id="header">
       <div id="section">
         <div><img src="images/icons8-School-512.png" alt="" /> </div>
         <div>
@@ -29,13 +31,14 @@
         <li><a href="history.html">History</a></li>
         <li><a href="staff.html">Staff</a></li>
         <li><a href="school-strength.html">School Strength</a></li>
-        <li><a href="gallery.html">Gallery </a></li>
+        <li ><a href="gallery.html">Gallery </a></li>
         <li class="current"><a href="contact-us.html">Contact us</a></li>
       </ul>
       <div class="news-flash">
         <marquee> ** Bhanderhati B.M. Institution celebrates its Quasquicentenary in January 2018 ** || ** The Alumini meet will be
-          held on October 30th 2017 **</marquee>
+          held on October 29th 2017 Time: 9:00 AM  **</marquee>
       </div>
+    </div>
     </div>
 
     <div id="content">
@@ -48,10 +51,10 @@
         <p>VILL- Dhaniakhali, P.O. - Bhanderhati, Dist - Hugli</p>
         <p>Sub-Division Sadar </p>
         <p>West Bengal, Pin - 712301</p>
-       
+
         <h5>PHONE</h5>
-        <p>Tel: 03213 254 267  </p>
-        <p>Index No: G2/016   </p>
+        <p>Tel: 03213 254 267 </p>
+        <p>Index No: G2/016 </p>
         <p>H.S Code No: 117045</p>
         <p>DISE Code:19121818802 </p>
 
@@ -60,22 +63,7 @@
       </div>
     </div>
 
-    <div id="footer">
-      <div>
-         <div id="connect"> <a href="#"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a> <a href="contact-us.html"> <i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>          <a href="contact-us.html"><i class="fa fa-phone fa-3x" aria-hidden="true"></i></a> </div>
-        <div class="section">
-          <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="history.html">History</a></li>
-            <li><a href="staff.html">Staff</a></li>
-            <li><a href="school-strength.html">School Strength</a></li>
-            <li><a href="gallery.html">Gallery </a></li>
-            <li><a href="contact-us.html">Contact us</a></li>
-          </ul>
-          <p>Copyright &copy; <a href="#">Domain Name</a> - All Rights Reserved | Website By <a target="_blank" href="http://www.webapp.com/">webapp.com</a></p>
-        </div>
-      </div>
+    <div id="footer-page">
     </div>
   </div>
 </body>

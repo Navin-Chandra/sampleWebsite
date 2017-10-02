@@ -682,3 +682,9 @@ h4 a, div#aside p span a{
 .text-msg{
 	font-size: 15px;
 }
+
+.carousel-inner>.item>img,
+  .carousel-inner>.item>a>img {
+    width: 50%;
+    margin: auto;
+  }
