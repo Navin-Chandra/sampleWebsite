@@ -647,8 +647,7 @@ h4 a, div#aside p span a{
     height: 100%;
     z-index: 1;
     opacity: 0.6;
-    /*background-image: url('http://placekitten.com/1500/1000');*/
-	background:url(../images/bg-header2.jpg) no-repeat center -20px;
+    background-image: url('http://placekitten.com/1500/1000');
 	margin-top:10px;
     background-repeat: no-repeat;
     background-position: 50% 0;
